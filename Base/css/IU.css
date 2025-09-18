@@ -1,0 +1,25 @@
+/*
+
+index.html
+divs
+
+*/
+	.bordeado{
+		border-width: 1;
+		border-style: solid;
+	}
+	#header_page{
+		font-size: 120;
+		text-align: center;
+	}
+    #formulario{
+        text-align: center;
+        margin: auto;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        width: 500px;   
+    }
+    body{
+        background-color: #e6c351;
+    
+    }

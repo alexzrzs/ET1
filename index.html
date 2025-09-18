@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href="./Base/css/IU.css" media="screen" />
+	<!-- clases generales -->
+	<script type="text/javascript" src="./Core/Validations_Class.js"></script>
+	<!-- clases dom -->
+	<script type="text/javascript" src="./Core/Dom_Class.js"></script>
+	<!-- clases entidades -->
+	<script type="text/javascript" src="./app/persona_Class.js"></script>
+
+</head>
+
+<body>
+	<header id='header_page' class='bordeado'>Formulario Graduacion</header>
+	<br>
+	<!-- formulario -->
+    <form id="formulario" action="http://193.147.87.202/procesaform.php" method="post" enctype="multipart/form-data" onsubmit="entidad.ADD_submit_persona();">
+		<!-- login -->
+			<label class="label">Login:</label>
+			<br>
+			<input type='text' id='alumnograduacion_login' name='login'></input>
+			<span id="span_error_login"><a id="error_login"></a></span>
+			<br><br>
+		<!-- password -->
+			<label class="label">Password:</label>
+			<br>
+			<input type='password' id='alumnograduacion_password' name='password'></input>
+			<span id="span_error_password"><a id="error_password"></a></span>
+			<br><br>
+		<!-- nombre -->
+			<label class="label">Nombre:</label>
+			<br>
+			<input type='text' id='alumnograduacion_nombre' name='nombre'></input>
+			<span id="span_error_nombre"><a id="error_nombre"></a></span>
+			<br><br>
+		<!-- apellidos -->
+			<label class="label">Apellidos:</label>
+			<br>
+			<input type='text' id='alumnograduacion_apellidos' name='apellidos'></input>
+			<span id="span_error_apellidos"><a id="error_apellidos"></a></span>
+			<br><br>
+		<!-- titulacion -->
+			<label class="label">Titulación:</label>
+			<br>
+			<input type='text' id='alumnograduacion_titulacion' name='titulacion'></input>
+			<span id="span_error_titulacion"><a id="error_titulacion"></a></span>
+			<br><br>
+		<!-- dni -->
+			<label class="label">DNI:</label>
+			<br>
+			<input type='text' id='alumnograduacion_dni' name='dni'></input>
+			<span id="span_error_dni"><a id="error_dni"></a></span>
+			<br><br>
+		<!-- telefono -->
+			<label class="label">Telefono:</label>
+			<br>
+			<input type='text' id='alumnograduacion_telefono' name='telefono'></input>
+			<span id="span_error_telefono"><a id="error_telefono"></a></span>
+			<br><br>
+		<!-- direccion -->
+			<label class="label">Dirección:</label>
+			<br>
+			<input type='text' id='alumnograduacion_direccion' name='direccion'></input>
+			<span id="span_error_direccion"><a id="error_direccion"></a></span>
+			<br><br>
+		<!-- email -->
+			<label class="label">Email:</label>
+			<br>
+			<input type='email' id='alumnograduacion_email' name='email'></input>
+			<span id="span_error_email"><a id="error_email"></a></span>
+			<br><br>
+		<!-- foto -->
+			<label class="label">Foto:</label>
+			<br>
+			<input type='file' id='alumnograduacion_fotoacto' name='fotoacto'></input>
+			<span id="span_error_fotoacto"><a id="error_fotoacto"></a></span>
+			<br><br>
+		<!-- submit -->
+			<input id="submit_button" type="submit" value="Submit">
+
+	</form>
+
+
+
+
+
+</body>
