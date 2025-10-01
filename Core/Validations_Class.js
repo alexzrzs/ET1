@@ -72,6 +72,8 @@ class Validations{
 
 	}
 
+
+
 	/*
 	@param {string} id of html element
 	@param {string} regular expression to testing id html element value
